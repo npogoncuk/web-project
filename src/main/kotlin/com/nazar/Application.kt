@@ -3,7 +3,6 @@ package com.nazar
 import com.mchange.v2.c3p0.*
 import com.nazar.dao.DAOFacade
 import com.nazar.model.User
-import com.nazar.model.Kweet
 import com.nazar.dao.DAOFacadeCache
 import com.nazar.dao.DAOFacadeDatabase
 import com.nazar.plugins.*
