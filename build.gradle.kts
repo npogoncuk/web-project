@@ -47,4 +47,12 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:$logback_version")
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
+
+
+    implementation("com.mchange:c3p0:0.9.5.5")
+    implementation("org.jetbrains.exposed:exposed-dao:$exposed_version")
+    implementation("org.jetbrains.exposed:exposed-jodatime:$exposed_version")
+    implementation("joda-time:joda-time:2.12.2")
+    implementation("org.ehcache:ehcache:3.9.7")
+
 }
