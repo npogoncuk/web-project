@@ -7,6 +7,7 @@ import com.nazar.model.Kweet
 import com.nazar.dao.DAOFacadeCache
 import com.nazar.dao.DAOFacadeDatabase
 import com.nazar.plugins.*
+import com.nazar.routes.*
 import freemarker.cache.*
 import io.ktor.http.*
 import io.ktor.resources.*
@@ -103,15 +104,15 @@ fun Application.mainWithDependencies(dao: DAOFacade) {
     val hashFunction = { s: String -> hash(s) }
 
     routing {
-        //styles()
-        //index(dao)
+        styles()
+        index(dao)
         //postNew(dao, hashFunction)
         //delete(dao, hashFunction)
-        //userPage(dao)
+        userPage(dao)
         //viewKweet(dao, hashFunction)
 
-        //login(dao, hashFunction)
-        //register(dao, hashFunction)
+        login(dao, hashFunction)
+        register(dao, hashFunction)
     }
 
     //configureTemplating()
