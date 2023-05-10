@@ -108,7 +108,7 @@ fun Application.mainWithDependencies(dao: DAOFacade) {
         //postNew(dao, hashFunction)
         //delete(dao, hashFunction)
         userPage(dao)
-        //viewKweet(dao, hashFunction)
+        viewKweet(dao, hashFunction)
 
         login(dao, hashFunction)
         register(dao, hashFunction)
