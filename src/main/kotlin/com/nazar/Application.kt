@@ -105,7 +105,7 @@ fun Application.mainWithDependencies(dao: DAOFacade) {
     routing {
         styles()
         index(dao)
-        //postNew(dao, hashFunction)
+        postNew(dao, hashFunction)
         //delete(dao, hashFunction)
         userPage(dao)
         //viewKweet(dao, hashFunction)
