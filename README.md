@@ -20,7 +20,7 @@ ___
 
 5. Clone the project repository using the "git clone" command. Paste the previously copied link to the repository in place of "repository_link":
 
-`git clone https://github.com/Shushpin/Velychko.LvivUniversity.PersonalProject.git`
+`git clone https://github.com/npogoncuk/web-project.git`
 
 6. Open project with IntellijIDEA
 
