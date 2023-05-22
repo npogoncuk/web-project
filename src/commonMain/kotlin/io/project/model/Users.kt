@@ -1,4 +1,4 @@
-package io.realworld.model
+package io.project.model
 
 import kotlinx.serialization.Serializable
 import io.kvision.remote.Id

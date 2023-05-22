@@ -1,6 +1,6 @@
 @file:UseContextualSerialization(OffsetDateTime::class)
 
-package io.realworld.model
+package io.project.model
 
 import kotlinx.serialization.UseContextualSerialization
 import kotlinx.serialization.Serializable
