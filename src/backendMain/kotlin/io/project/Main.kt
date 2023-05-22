@@ -1,4 +1,4 @@
-package io.realworld
+package io.project
 
 import io.r2dbc.spi.ConnectionFactory
 import org.springframework.beans.factory.annotation.Value
