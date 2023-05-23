@@ -2,45 +2,44 @@ ___
 
 ### About the project
 ___
-‣ Some type of forum (will specify later)
+‣ The " Article Sharing Forum" is a forum, where users will be able to post their article, with different tag, subscribe to other users and like their articles. 
 
-### How to install and run a project from **GitHub** in your IDE:
+### How to install and run a project from **GitHub**:
 
 ---
-1. First, you need to have the right IDE on your computer, for example, [IntellijIDEA](https://www.jetbrains.com/idea/);
+Make sure you have [JDK 8](https://openjdk.java.net/) or higher installed.
+
+The project is build with Gradle Wrapper. Run Gradle build with `./gradlew` or `gradlew.bat` command.
+### Installation
+You can download project from GitHub using button Code, Download ZIP
+
+### Running
+Run in two separate terminals in the project directory:
+* `./gradlew backendRun` - Starts Spring Boot backend server on port 8080. 
+* `./gradlew -t frontendRun` - Starts a webpack dev server on port 3000. 
+
+Open http://localhost:3000 in a browser to work with both servers.
+
+### Installation and Running using IDE
+
+1. First, you need to have the right IDE on your computer, [IntellijIDEA](https://www.jetbrains.com/idea/);
 
 
 2. Copy the link to the project repository on GitHub. You can find this link on the project page by clicking the green "Code" button in the top right corner. Choose HTTPS or SSH, depending on how you want to clone the repository;
 
-3. Open the command prompt (Windows) or terminal (Mac/Linux);
+3. In IntellijIDEA click `Get from VCS` and paste the link. Click `clone`.
 
-
-4. Navigate to the directory where you want to save the project. You can use the "cd" (change directory) command for this. For example, to navigate to the "Documents" folder, type "cd Documents" (without quotes);
-
-
-5. Clone the project repository using the "git clone" command. Paste the previously copied link to the repository in place of "repository_link":
-
-`git clone https://github.com/npogoncuk/web-project.git`
-
-6. Open project with IntellijIDEA
-
-7. On the right panel open Gragle Tasks, it the 'application' folder will be task 'run', just click on it.
+4. On the right panel open Gragle Tasks, in the `run` folder will be task `backendRun`, just click on it, in the `kotlin browser` folder will be task `frontendBrowserRun`,just click on it.
 ### Technology Stack⚙️
 ___
 
-◉ **Backend**: Java Spring / Ktor - A popular framework for building web applications and services in Java / Kotlin
-
-◉ **HTML CSS FreeMarker**.
+◉ **Backend**: Spring Boot - A popular framework for building web applications and services in Java / Kotlin
 
 ◉ **Database: h2database** - A popular open-source relational database management system.
 
 ◉ **ORM: Exposed** - An object-relational mapping tool for Kotlin that simplifies database access.
 
-◉ **Azure** - A cloud computing platform and services from Microsoft.
-
-◉ **Testing framework**: Junit / Mockio - A popular testing framework for Java/Kotlin applications.
-
-◉ **Dependency injection**: Kodein - is a very simple and yet very useful dependency retrieval container. it is very easy to use and configure.
+◉ **Heroku** - A cloud computing platform and services from Microsoft.
 
 ◉ **Swagger UI** - A tool for designing, building, and documenting RESTful APIs.
 
@@ -48,7 +47,7 @@ ___
 ___
 ***The following tasks were completed***:
 
-- [X] Create Solution
+- [X] Create Project
 
 - [X] Create DB and use ORM
 
@@ -65,11 +64,9 @@ ___
 ___
 1. Create a friendly program interface
 
-2. Сonnect the necessary api for the project
+2. Tune CI/CD
 
-3. Tune CI/CD
-
-4. Add OAuth
+3. Add OAuth
 
 ### ✌️About
 ___
