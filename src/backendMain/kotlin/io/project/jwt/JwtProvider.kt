@@ -13,6 +13,7 @@ class JwtProvider {
     fun decodeJWT(token: String): DecodedJWT = JWT.require(Cipher.algorithm).build().verify(token)
 
     fun createJWT(user: User): String = JWT.create().withIssuedAt(Date()).withSubject(user.username)
+            // expiresAt now + 1 day and night ( = 1  day and night * 24 hours * 60 minutes * 60 seconds * 1000 milliseconds)
         .withExpiresAt(Date(System.currentTimeMillis() + 1 * 24 * 60 * 60 * 1000))
         .sign(Cipher.algorithm)
 }

@@ -36,7 +36,7 @@ val jwtVersion: String by project
 val slugifyVersion: String by project
 
 val webDir = file("src/frontendMain/web")
-val mainClassName = "com.example.MainKt"
+//val mainClassName = "com.example.MainKt"
 
 kotlin {
     jvm("backend") {
