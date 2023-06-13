@@ -59,14 +59,13 @@ ___
 
 - [X] Creation of main pages and registers
 
+- [X] Tune CI/CD
 
+- [X] Create a friendly program interface
 ### 📝Upcoming tasks
 ___
-1. Create a friendly program interface
 
-2. Tune CI/CD
-
-3. Add OAuth
+1. Add OAuth
 
 ### ✌️About
 ___
